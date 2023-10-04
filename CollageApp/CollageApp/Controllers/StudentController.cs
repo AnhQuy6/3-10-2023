@@ -63,6 +63,30 @@ namespace CollageApp.Controllers
             return Ok(n);
         }
 
+        [HttpPost]
+        [Route("Create")]
+        //api/controller/Create
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status400BadRequest)]
+        [ProducesResponseType(StatusCodes.Status500InternalServerError)]
+        public ActionResult<StudentDTO> CreateStudent([FromBody] StudentDTO model)
+        {
+            if (model == null)
+                return BadRequest();
+            int newid = CollageRepository.Students.LastOrDefault().Id + 1;
+            Student student = new Student()
+            {
+                Id = newid,
+                Age = model.Age,
+                Name = model.Name,
+                Address = model.Address,
+                Email = model.Email,
+            };
+            CollageRepository.Students.Add(student);
+            model.Id = student.Id; // Cập nhật Id mới nhất
+            return Ok(student);
+        }
+
         [HttpDelete]
         [Route("delete/{id:int}", Name = "DeleteId")]
         [ProducesResponseType(StatusCodes.Status200OK)]
@@ -78,5 +102,7 @@ namespace CollageApp.Controllers
             CollageRepository.Students.Remove(x);
             return Ok(x);
         }
+
+        
     }
 }
