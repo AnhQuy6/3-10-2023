@@ -30,3 +30,7 @@ E:\FileC#\CollageApp\CollageApp\obj\Debug\net6.0\refint\CollageApp.dll
 E:\FileC#\CollageApp\CollageApp\obj\Debug\net6.0\CollageApp.pdb
 E:\FileC#\CollageApp\CollageApp\obj\Debug\net6.0\CollageApp.genruntimeconfig.cache
 E:\FileC#\CollageApp\CollageApp\obj\Debug\net6.0\ref\CollageApp.dll
+E:\FileC#\CollageApp\CollageApp\bin\Debug\net6.0\Microsoft.AspNetCore.JsonPatch.dll
+E:\FileC#\CollageApp\CollageApp\bin\Debug\net6.0\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+E:\FileC#\CollageApp\CollageApp\bin\Debug\net6.0\Newtonsoft.Json.dll
+E:\FileC#\CollageApp\CollageApp\bin\Debug\net6.0\Newtonsoft.Json.Bson.dll

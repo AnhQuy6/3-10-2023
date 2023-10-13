@@ -1,11 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "NOhBv2PeAOE9bpNV44BGjAQRj0iw2sU/rr5Wmz4rTfxq+WlDWj1TCW1aszLLZLDbSYTNSeoVpdNvqfqoEBjRRA==",
+  "dgSpecHash": "Wcu+vKpNPBBjzXFUSTpAt2QeDzuNVx3Il1r8pPzMYy1eFuLmqnY07GaAG1/ARyUrW9MCeQkDcBQQ9RZJwMHMag==",
   "success": true,
   "projectFilePath": "E:\\FileC#\\CollageApp\\CollageApp\\CollageApp.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\FPTSHOP\\.nuget\\packages\\microsoft.aspnetcore.jsonpatch\\6.0.23\\microsoft.aspnetcore.jsonpatch.6.0.23.nupkg.sha512",
+    "C:\\Users\\FPTSHOP\\.nuget\\packages\\microsoft.aspnetcore.mvc.newtonsoftjson\\6.0.23\\microsoft.aspnetcore.mvc.newtonsoftjson.6.0.23.nupkg.sha512",
+    "C:\\Users\\FPTSHOP\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\FPTSHOP\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\FPTSHOP\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\FPTSHOP\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\FPTSHOP\\.nuget\\packages\\newtonsoft.json.bson\\1.0.2\\newtonsoft.json.bson.1.0.2.nupkg.sha512",
     "C:\\Users\\FPTSHOP\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\FPTSHOP\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "C:\\Users\\FPTSHOP\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",

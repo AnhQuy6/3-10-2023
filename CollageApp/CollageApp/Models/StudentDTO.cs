@@ -16,9 +16,7 @@ namespace CollageApp.Models
         public string Address { get; set; }
         [EmailAddress(ErrorMessage = "Please enter valid email")] // Phải hợp lệ Form Email
         public string Email { get; set; }
-        public string Password { get; set; }
-        [Compare(nameof(Password))] // Phải đúng mật khẩu
-        public string ConfirmPassword { get; set; }
+        
 
     }
 }
